@@ -1,0 +1,170 @@
+.each_cart {
+  margin: 1vh;
+  padding: 1vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(255, 255, 255, 0.49);
+
+  /* background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  23px 23px 47px #bebebe,
+                 -23px -23px 47px #ffffff; */
+}
+
+.productimage {
+  /* border:3px solid black; */
+  height: 20vh;
+}
+.product_desc {
+  /* border:3px solid black; */
+}
+
+.btns {
+  /* margin-top:1vh;
+    margin-bottom:1vh;*/
+  margin-right: 1vh;
+  font-size: 0.8rem;
+}
+.emptycart{
+  
+  height:40vh;
+  width:85%;
+ 
+}
+.empty{
+  
+}
+.cart_product_name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.oops{
+ 
+}
+
+.fa-solid{
+  color:blue;
+}
+
+.cart_product_price {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.total {
+  /* border:1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout_button {
+  padding: 1.1vh;
+  margin: 0vh 1vh;
+  font-weight: bold;
+  font-size: 1.1rem;
+  /* border:0.4vh solid black; */
+}
+
+.checkout_button:hover {
+  background-color: black;
+  color: white;
+}
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartdiv {
+  margin-top: 5vh;
+}
+.cartitems {
+  margin-bottom: 4vh;
+}
+
+.continue_shopping {
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 0.6vh solid black;
+  padding: 1vh;
+}
+
+.cart_product_name {
+  font-size: 1.3rem;
+}
+
+.horizontal_line {
+  height: 1vh;
+  font-weight: bold;
+}
+
+.product_quantity {
+  /* border:1px solid red; */
+  font-size: 1rem;
+}
+
+.hrline {
+  background-color: aliceblue;
+  height: 0.3vh;
+}
+
+.tablerow {
+  display: flex;
+  justify-content: space-between;
+
+  width: 35vw;
+  height: 6vh;
+}
+
+.maincols {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.btn1 a {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.btn1 {
+  border: 0.3vh solid black;
+  transition: all smooth 1s;
+  font-size: 0.3rem;
+}
+.btn1:hover {
+  color: white;
+  background-color: aquamarine;
+}
+
+.btn2 {
+  margin-left: 5vw;
+}
+
+td {
+  font-weight: bold;
+}
+
+#hamrotable tr:nth-child(even) {
+  background-color: black;
+}
+
+@media only screen and (max-width: 998px) {
+  .tablerow {
+    width: 39vw;
+  }
+}

@@ -1,0 +1,38 @@
+.imagestyle {
+  height: 70vh;
+  width: 80vh;
+  z-index: 1;
+}
+
+.herosection {
+  position: absolute;
+  top: 21vh;
+  left: 5vw;
+  z-index: 3;
+}
+
+.herosection h1 {
+  font-weight: bold;
+   margin-bottom:4vh;
+  font-size: 2rem;
+  color:black;
+  font-family: "Gloria Hallelujah", cursive;
+  
+}
+
+.herosection button {
+  
+  padding: 1.5vh 3vh;
+  transition: background-color 0.5s;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius:1rem;
+  background-color: black;
+  color: white;
+}
+.herosection button:hover {
+  color:black;
+  background-color:white;
+
+  
+}

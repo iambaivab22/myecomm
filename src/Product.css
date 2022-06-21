@@ -1,0 +1,126 @@
+.linkss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkss a{
+  color:blue !important;
+}
+.eachlinks {
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+.mainboxes{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.checkboxes{
+  width:50vw;
+  display:flex;
+  flex-direction:row;
+   justify-content:space-around;
+  align-items:center; 
+  font-size:1.1rem;
+  font-weight:bold;
+    
+  }
+
+
+
+
+.eachproduct {
+  margin-top: 1vh;
+  height: 70vh;
+  /* border:1px solid red; */
+}
+
+.buy_now {
+  padding: 1.5vh;
+  /* border:1px solid red; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+.primage {
+  height: 43vh;
+  /* border:1px solid red; */
+}
+
+.eachcol {
+  /* border:3px solid yellow;  */
+  height: 73vh;
+}
+
+.eachcheckbox{
+  margin-right:2vw;
+  font-weight:0.8rem;
+}
+
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  position: relative;
+  color:black;
+
+}
+
+
+
+
+.search{
+   border:.2vh solid black; 
+  border-radius: 1.3rem;
+  border:2px solid red;
+  
+}
+
+
+.imgsection {
+  position: relative;
+  /* border:1px solid red; */
+}
+
+
+
+@media only screen and (max-width: 998px) {
+  .primage {
+    height: 28vh;
+    /* border:1px solid red; */
+  }
+
+  .eachcol {
+    /*       
+        border:3px solid yellow;  */
+    height: 73vh;
+    margin-bottom: 15vh;
+  }
+
+ 
+
+  .searchicon{
+    margin-right:3vw;
+  }
+  .checkboxes{
+    width:90vw;
+    display:flex;
+    flex-direction:row;
+     justify-content:space-around;
+    align-items:center; 
+    font-size:1.1rem;
+    font-weight:bold;
+      
+    }
+  
+}

@@ -1,0 +1,48 @@
+.loginbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh;
+}
+
+.inputbox {
+  background-color: white;
+
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 1.1vh 3vh;
+  margin-bottom: 2vh;
+  font-size:1.2rem;
+  
+}
+
+.labels {
+  font-weight: bold;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.mainbox {
+  height: 60vh;
+  width: 60vw;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.loginbutton{
+  
+  
+  color:white;
+  background-color:black;
+  font-size:1.5rem !important;
+  padding:2vh 5vh;
+
+ 
+ 
+
+}
