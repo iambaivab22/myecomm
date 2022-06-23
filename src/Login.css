@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8vh;
+  padding:5vh;
 }
 
 .inputbox {
@@ -24,7 +24,7 @@
 
 .mainbox {
   height: 60vh;
-  width: 60vw;
+  width: 50vw;
   background-color: aquamarine;
   border-radius: 1rem;
   display: flex;
@@ -32,6 +32,7 @@
   align-items: center;
   flex-direction: column;
   font-family: "Gloria Hallelujah", cursive;
+  padding:5vh;
 }
 
 .loginbutton{
@@ -39,10 +40,34 @@
   
   color:white;
   background-color:black;
-  font-size:1.5rem !important;
-  padding:2vh 5vh;
+  font-size:1.1rem !important;
+  padding:2vh 2vh;
 
- 
- 
+}
+
+@media only screen and (max-width: 998px) {
+  .mainbox {
+    height: 60vh;
+    width: 50vw;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Gloria Hallelujah", cursive;
+    padding:5vh;
+  }
+
+  .inputbox {
+    background-color: white;
+  width:20vh;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 1.1vh 1vh;
+    margin-bottom: 1vh;
+    font-size:1rem;
+    
+  }
 
 }

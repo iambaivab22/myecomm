@@ -16,6 +16,10 @@
                  -23px -23px 47px #ffffff; */
 }
 
+.product_quantity{
+  color:blue;
+}
+
 .productimage {
   /* border:3px solid black; */
   height: 20vh;
@@ -29,6 +33,7 @@
     margin-bottom:1vh;*/
   margin-right: 1vh;
   font-size: 0.8rem;
+  color:green;
 }
 .emptycart{
   
@@ -36,16 +41,13 @@
   width:85%;
  
 }
-.empty{
-  
-}
+
 .cart_product_name {
   font-weight: bold;
   font-size: 1rem;
+  color:blue !important;
 }
-.oops{
- 
-}
+
 
 .fa-solid{
   color:blue;
@@ -54,6 +56,7 @@
 .cart_product_price {
   font-weight: bold;
   font-size: 1rem;
+  color:blue !important;
 }
 
 .total {
