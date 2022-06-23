@@ -1,0 +1,73 @@
+.footersec {
+  margin-top: 3vh;
+  opacity:1;
+  background-color: black;
+  color: white;
+  padding: 3vh;
+  transition:opacity 2s;
+}
+
+.footersec:hover{
+opacity:0.95;
+}
+.contacticons {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.meroclass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginbtn{
+  font-weight: bold;
+  font-size: 1rem;
+  border:none;
+  margin-left:1rem;
+  
+
+}
+
+
+
+.scroller {
+  height: 3rem;
+  width: 3rem;
+  position: fixed;
+  bottom: 2vh;
+  right: 1vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: red;
+  color:white !important;
+  border: 1px solid red;
+  transition:all 1s;
+}
+
+.scroller i{
+  color:white !important;
+  
+}
+
+.scroller:hover{
+  background-color:black !important;
+}
+
+.copyright{
+  font-weight:bold;
+  font-size:1rem;
+}
+
+
