@@ -47,8 +47,8 @@
 
 @media only screen and (max-width: 998px) {
   .mainbox {
-    height: 60vh;
-    width: 50vw;
+    height: 40vh;
+    width: 60vw;
     background-color: aquamarine;
     border-radius: 1rem;
     display: flex;
@@ -61,7 +61,7 @@
 
   .inputbox {
     background-color: white;
-  width:20vh;
+  width:27vh;
     font-weight: bold;
     border-radius: 1rem;
     padding: 1.1vh 1vh;
