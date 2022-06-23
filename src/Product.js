@@ -6,6 +6,7 @@ import { Link, Outlet } from "react-router-dom";
 import "./Product.css";
 import Productbox from "./Productbox";
 const Product = () => {
+
   const data = useContext(pcontext);
   const { dispatch } = useContext(Cartcontext);
   const [searchproduct, setsearchproduct] = useState("  ");
@@ -83,8 +84,8 @@ useEffect(()=>{
 },[checkedState])
   
     
-
-
+console.log("it is search garepaxi ko hai");
+console.log(searched);
 
 
 

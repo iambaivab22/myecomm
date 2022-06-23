@@ -82,7 +82,8 @@ a:hover {
 .search{
    border:.2vh solid black; 
   border-radius: 1.3rem;
-  border:2px solid red;
+  border:1px solid red;
+  width:50vw;
   
 }
 
@@ -108,9 +109,17 @@ a:hover {
   }
 
  
+.search{
+  border:.2vh solid black; 
+ border-radius: 1.3rem;
+ border:2px solid red;
+ width:50vw !important;
+ 
+}
 
   .searchicon{
-    margin-right:3vw;
+    margin-right:1vw !important;
+  
   }
   .checkboxes{
     width:90vw;

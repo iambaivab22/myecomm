@@ -14,28 +14,28 @@ const Banner = () => {
       >
         <div className="carousel-inner">
           <div className="herosection">
-            <h1>Welcome To Kinumna</h1>
+            <h1>Welcome !</h1>
             <button onClick={() => Navigator("product")}>Start Shopping</button>
           </div>
 
           <div className="carousel-item active">
             <img
               className="d-block w-100 img-fluid imagestyle"
-              src="Bnrr3.jpg"
+              src="finalbanner1.png"
               alt="Second slide"
             ></img>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100 img-fluid imagestyle"
-              src="Bnrr4.jpg"
+              src="finalbanner3.png"
               alt="Third slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100 img-fluid imagestyle"
-              src="Bnrr4.jpg"
+              src="finalbanner2.png"
               alt="fourth slide"
             />
           </div>
