@@ -13,7 +13,7 @@ const productdata = [
     status: "stock",
     maincategory: "bag",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is  {this.name} item for you ."
   },
   
   {
@@ -27,11 +27,7 @@ const productdata = [
     status: "stock",
     mwcategory: "boy",
     maincategory: "shirt",
-    description: `It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajf
-             jslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsklfjsdlkfjjsdlkfjjsklf
-             klsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs
-             klsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs
-             klsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvns`,
+    description: `It is shirt for boy.Made up of cotton.suitable for summer`
   },
   {
     id: 3,
@@ -44,7 +40,7 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item jacket.",
   },
 
   {
@@ -59,7 +55,7 @@ const productdata = [
     status: "stock",
     maincategory: "pant",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .it is worth buying it"
   },
 
   {
@@ -74,7 +70,7 @@ const productdata = [
     status: "stock",
     maincategory: "pant",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .it is worth buying it"
   },
 
   {
@@ -89,11 +85,10 @@ const productdata = [
     mwcategory: "boy",
     maincategory: "bag",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
-  },
+      "It is the best item for you .It is the best item for you .it is worth buying it"
 
- 
-  {
+  },
+  { 
     id: 7,
 
     name: "shoe",
@@ -104,7 +99,7 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
 
   {
@@ -119,9 +114,8 @@ const productdata = [
     mwcategory: "boy",
     maincategory: "bag",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
-
   {
     id: 9,
 
@@ -134,7 +128,7 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
   {
     id: 10,
@@ -148,7 +142,7 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for It is the best item for you .it is worth buying it"
   },
 
   {
@@ -163,7 +157,7 @@ const productdata = [
     status: "stock",
     maincategory: "cap",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
 
   {
@@ -178,7 +172,7 @@ const productdata = [
     status: "stock",
     maincategory: "pant",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item fIt is the best item for you .it is worth buying it"
   },
 
   {
@@ -193,7 +187,7 @@ const productdata = [
     status: "stock",
     maincategory: "pant",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
   {
     id: 14,
@@ -207,7 +201,7 @@ const productdata = [
     status: "stock",
     maincategory: "bag",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
 
   {
@@ -222,7 +216,7 @@ const productdata = [
     status: "stock",
     maincategory: "cap",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you . It is the best item for you .it is worth buying it"
   },
 
   {
@@ -237,7 +231,7 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you It is the best item for you .it is worth buying it"
   },
 
   {
@@ -252,12 +246,12 @@ const productdata = [
     status: "stock",
     maincategory: "shoe",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+      "It is the best item for you .It is the best item for you .it is worth buying it"
   },
 
 
-
-  {
+{
+  
     id: 18,
 
     name: "bag",
@@ -269,9 +263,8 @@ const productdata = [
     mwcategory: "boy",
     maincategory: "bag",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
-  },
-
+      "It is the best item for you .It is the best item for you .it is worth buying it"
+},
   {
     id: 19,
 
@@ -284,9 +277,9 @@ const productdata = [
     mwcategory: "electronics",
     maincategory: "elecronics",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
-  },
+      "It is the best item for you ."
 
+  },
   {
   id: 20,
 
@@ -299,7 +292,7 @@ const productdata = [
   mwcategory: "electronics",
   maincategory: "elecronics",
   description:
-    "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+    "It is the best item for you .It is the best item for you .it is worth buying it"
 },
 {
 id: 21,
@@ -313,7 +306,7 @@ status: "stock",
 mwcategory: "electronics",
 maincategory: "elecronics",
 description:
-  "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+  "It is the best item for you .It is the best item for you .it is worth buying it"
 },
 {
 id: 22,
@@ -327,7 +320,7 @@ status: "stock",
 mwcategory: "electronics",
 maincategory: "elecronics",
 description:
-  "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+  "It is the best item for you.It is the best item for you .it is worth buying it"
 },
 
 {
@@ -342,7 +335,7 @@ description:
   mwcategory: "electronics",
   maincategory: "elecronics",
   description:
-    "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
+    "It is the best item for you .It is the best item for you .it is worth buying it"
   },
 
   {
@@ -357,8 +350,8 @@ description:
     mwcategory: "electronics",
     maincategory: "elecronics",
     description:
-      "It is the best item for you .You will be dada fjklsjfkljsdklfjslkjflkajfkldsjkfjsdkfjslkjfklsajfkljskdlfjsklfjklsjfklsjfklsjfkljsklfjsdlkfjklsdjfklsjfklsjdfkjscknskjfksjfksldcksdfjsklnskvnskjfksdjfklsjflkjafkljs",
-    },
+      "It is the best item for you "
+    }
 
 
 ];
